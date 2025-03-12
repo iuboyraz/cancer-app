@@ -8,7 +8,7 @@ import joblib
 model = joblib.load("DT_final_model.pkl")
 
 # Load image
-st.image(r"/workspaces/cancer-app/colon_cancer_awareness.jpg", caption="", use_container_width=True)
+st.image("https://sph.uth.edu/research/centers/chppr/features/img/coastal%20workflow%20visit%2010x8.jpg?language_id=1", caption="", use_container_width=True)
 
 st.title("Cancer Prediction App")
 
